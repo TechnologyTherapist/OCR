@@ -15,3 +15,13 @@ brew install tesseract
 For Windows, please see Tesseract documentation. Let’s begin by getting pytesseract installed.
 
 $ pip install pytesseract
+
+Lets Start
+We’ll start by developing the Flask back-end layer to serve the results of the OCR engine. From there you can just hit the endpoint and serve the results to the end user in the manner that suits you. All of this is covered in detail by the tutorial. We’ll also add a bit of back-end code to generate an HTML form as well as the front-end code to consume the API. This will not be covered by the tutorial, but you will have access to the code.
+
+we need to make a class using pytesseract to intake and read images in ocr.py
+Building a CLI Tool for Your New OCR Engine in cli.py
+Back to the Server in app.py
+
+Run your app:
+$ python app.py
